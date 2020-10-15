@@ -13,6 +13,7 @@
 		606BB9D225387D1D00871ABA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 606BB9D025387D1D00871ABA /* LaunchScreen.storyboard */; };
 		606BB9DD25387D1D00871ABA /* TASK_MatchesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606BB9DC25387D1D00871ABA /* TASK_MatchesTests.swift */; };
 		606BB9E825387D1D00871ABA /* TASK_MatchesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606BB9E725387D1D00871ABA /* TASK_MatchesUITests.swift */; };
+		606BBA08253886A100871ABA /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606BBA07253886A100871ABA /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		606BB9E325387D1D00871ABA /* TASK-MatchesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TASK-MatchesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		606BB9E725387D1D00871ABA /* TASK_MatchesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TASK_MatchesUITests.swift; sourceTree = "<group>"; };
 		606BB9E925387D1D00871ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		606BBA07253886A100871ABA /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				606BB9CE25387D1D00871ABA /* Assets.xcassets */,
 				606BB9D025387D1D00871ABA /* LaunchScreen.storyboard */,
 				606BB9D325387D1D00871ABA /* Info.plist */,
+				606BBA07253886A100871ABA /* ResultViewController.swift */,
 			);
 			path = "TASK-Matches";
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 			files = (
 				606BB9CA25387D1C00871ABA /* InputViewController.swift in Sources */,
 				606BB9C625387D1C00871ABA /* AppDelegate.swift in Sources */,
+				606BBA08253886A100871ABA /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
