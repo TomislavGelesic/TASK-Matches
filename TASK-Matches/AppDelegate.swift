@@ -14,7 +14,7 @@ var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        let inputScreen = ViewController()
+        let inputScreen = InputViewController()
         
         let navigationController = UINavigationController(rootViewController: inputScreen)
         
